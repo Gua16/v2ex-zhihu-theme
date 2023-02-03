@@ -2,6 +2,7 @@
  * 作者：viewweiwu
  * github: https://github.com/viewweiwu/v2ex-zhihu-theme
  * 帖子地址: https://v2ex.com/t/819780
+ * version: 1.6.2
  */
 body {
   font-family: MiSans, -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
@@ -24,8 +25,8 @@ select {
   --link-color: #8590a6;
   --link-hover-color: #294a8e;
   --box-border-color: #f0f2f7;
-  --primary-color: #DD4C4F;
-  --primary-color-hover: #F05F62;
+  --primary-color: #1890ff;
+  --primary-color-hover: #40a9ff;
 }
 
 a:active,
@@ -99,6 +100,7 @@ body .box {
   padding-right: 0;
   padding-left: 0;
   padding-bottom: 0;
+  white-space: normal !important;
 }
 
 .count_livid {
@@ -380,6 +382,10 @@ body #search-container:focus-within {
   border-radius: var(--box-border-radius);
 }
 
+img {
+  max-width: 100%;
+}
+
 body #Wrapper.Night {
   background: none !important;
   background-image: none !important;
@@ -475,15 +481,3 @@ body #Wrapper.Night {
 .Night .CodeMirror-scroll {
   color: #fff;
 }
-
-/* body #Wrapper {
-  background-image: url(https://p.sda1.dev/3/4fb95462b95b2b4afc32087b2a878dfa/bg-4k-light.png) !important;
-  background-attachment: fixed !important;
-  background-size: cover !important;
-}
-
-body #Wrapper.Night {
-  background-image: url(https://p.sda1.dev/3/4c32f34a08ac944236ed7546211c8330/bg-4k.png) !important;
-  background-attachment: fixed !important;
-  background-size: cover !important;
-} */
